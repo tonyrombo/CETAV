@@ -288,10 +288,90 @@ header{
 	padding-top: 350px; 
 }
 
+/*----------REGISTER-----------*/
 
+.register{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #f0f0f0;
+	padding-top: 140px;
+}
 
+.register h3{
+	color: #2b2b2b;
+	border-bottom: 1px solid #2b2b2b;
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 12px;
+	margin-bottom: 60px;
+	padding: 20px 0 20px 0;
+}
 
+.register-info{
+	width: 50%;
+	height: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
 
+.register-info h1{
+	color: #2b2b2b;
+	margin-bottom: 30px;
+}
+
+.register-info p{
+	color: #00bcf2;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+
+.register-info .date-info{
+	margin-bottom: 30px;
+}
+
+.register-info p cite{
+	color: #2b2b2b;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.register-info a{
+	color: red;
+	font-size: 24px;
+	padding: 10px 80px 10px 80px;
+	border: 1px solid #00bcf2;
+	text-decoration: none;
+}
+
+/*-----------FOOTER-------*/
+
+footer{
+	width: 100%;
+	height: 425px;
+	margin: 0 auto;
+	background-color: #2b2b2b;
+}
+
+footer .footer-info{
+	width: 50%;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+}
+
+footer .footer-info img{
+	float: left;
+	margin: 0 45% 0 45%;
+	margin-bottom: 30px;
+}
+
+footer .footer-info a{
+	float: left;
+	font-size: 18px;
+	width: 20%;
+}
 
 
 
