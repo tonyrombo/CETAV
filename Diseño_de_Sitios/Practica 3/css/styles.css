@@ -174,10 +174,25 @@ header{
 /*------------EVENTS---------------*/
 
 .events h3:first-child{
-	width: 15%;
+	width: 50%;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border: none;
+}
+
+.events h3:first-child::before, .events h3:first-child::after{
+	content: "";
+	vertical-align: middle;
+	display: inline-block;
+	background-color: #2b2b2b;
+	height: 2px;
+	width: 20%;
+	margin-bottom: 4px;
+}
+
+.events h3:first-child::before{
+	left: 5px;
+	margin-left: 5%;
 }
 
 .news{
